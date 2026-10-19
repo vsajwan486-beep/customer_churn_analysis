@@ -115,3 +115,24 @@ The analysis demonstrates how data analytics can transform customer data into us
 ## 17. Project Outcome
 
 This project demonstrates practical skills in data cleaning, exploratory data analysis, churn-rate calculation, data visualization, business interpretation, and communicating analytical findings. It provides a foundation for future work in customer churn prediction and data-driven decision-making.
+
+
+
+## Feature Importance and Model Explainability
+
+### Objective
+The objective of this analysis is to identify which customer characteristics contribute most to the Random Forest model's churn predictions.
+
+### Methodology
+I examined the model's built-in feature importance scores and used permutation importance with ROC-AUC scoring to assess how shuffling individual transformed features affected predictive performance.
+
+### Key Findings
+- The highest-ranked feature in the model was: [insert your actual feature].
+- Another important feature was: [insert your actual feature].
+- The permutation importance analysis showed that: [describe your actual results].
+
+### Business Implications
+The results can help the company identify customer characteristics associated with elevated churn risk and prioritize further investigation or retention experiments.
+
+### Limitations
+Feature importance indicates predictive usefulness, not causation. The analysis uses historical customer data, and the model's findings should be validated before being used to make business decisions.
