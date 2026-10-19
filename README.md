@@ -53,11 +53,11 @@ The project combines data cleaning, exploratory data analysis, visualization, ma
 
 The project evaluates the model using multiple classification metrics rather than relying on accuracy alone.
 
-- Accuracy: [insert actual result]
-- Precision: [insert actual result]
-- Recall: [insert actual result]
-- F1-score: [insert actual result]
-- ROC-AUC: [insert actual result]
+- Accuracy:0.759
+- Precision:0.351
+- Recall:0.775
+- F1-score:0.63
+- ROC-AUC:0.841
 
 ## Limitations
 
