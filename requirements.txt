@@ -7,3 +7,4 @@ numpy
 scikit-learn: 1.9.1
 Streamlit: 1.66.0
 Joblib: 1.6.0
+plotly

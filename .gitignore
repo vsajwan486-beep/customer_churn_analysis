@@ -29,3 +29,10 @@ Thumbs.db
 
 # Sensitive or raw data (uncomment if needed)
 # data/raw/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
