@@ -1,78 +1,84 @@
 # Customer Churn Analysis & Prediction
 
+A data analytics and machine learning project that analyzes customer churn patterns and predicts potential customer churn using Python, SQL, and Streamlit.
+
 ## Project Overview
 
-This project analyzes customer churn in a telecommunications dataset and builds a machine learning model to estimate whether a customer is likely to leave the company.
-
-The project combines data cleaning, exploratory data analysis, visualization, machine learning, model evaluation, and an interactive Streamlit application.
+This project explores customer data to identify churn patterns, analyze customer segments, and build machine learning models to predict whether customers may leave a service.
 
 ## Technologies Used
 
-- Python
-- Pandas and NumPy
-- Matplotlib
-- Scikit-learn
-- Joblib
-- Streamlit
-- Jupyter Notebook
+- **Python** — Pandas, NumPy, Scikit-learn
+- **SQL** — SQLite, queries, joins, aggregations
+- **Visualization** — Matplotlib, Plotly
+- **Dashboard** — Streamlit
+- **Tools** — Jupyter Notebook, VS Code, Git, GitHub
 
-## Project Features
+## Key Features
 
-- Data cleaning and preprocessing
-- Exploratory data analysis and visualizations
-- Customer churn prediction using classification models
-- Model evaluation using accuracy, precision, recall, F1-score, and ROC-AUC
-- Feature importance analysis
-- Saved preprocessing and prediction pipeline
-- Interactive Streamlit application
+- Data cleaning and exploratory data analysis (EDA).
+- Customer churn analysis using SQL.
+- Logistic Regression and Random Forest classification.
+- Model evaluation using accuracy, precision, recall, F1-score, and ROC-AUC.
+- Interactive dashboard with customer filters and visualizations.
+- Customer churn prediction using a saved machine learning pipeline.
 
 ## Project Structure
 
-- `app.py` — Streamlit application
-- `data/` — Dataset files
-- `notebooks/` — Analysis and machine learning notebooks
-- `models/` — Saved machine learning pipeline
-- `reports/` — Analysis reports and visualizations
-- `requirements.txt` — Python dependencies
+```text
+customer-churn-analysis/
+├── data/
+├── notebooks/
+├── models/
+├── reports/
+├── src/
+├── app.py
+├── dashboard.py
+├── requirements.txt
+└── README.md
+```
 
 ## Installation and Usage
 
-1. Clone or download this repository.
-2. Create and activate a Python virtual environment.
-3. Install the dependencies:
+1. Clone the repository:
 
-   `python -m pip install -r requirements.txt`
+   ```bash
+   git clone https://github.com/vsajwan486-beep/customer-churn-analysis.git
+   cd customer-churn-analysis
+   ```
 
-4. Start the application:
+2. Install dependencies:
 
-   `python -m streamlit run app.py`
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
 
-5. Open the local URL displayed in the terminal.
+3. Place the cleaned dataset at the required path:
 
-## Model Evaluation
+   `data/processed/customers_clean.csv`
 
-The project evaluates the model using multiple classification metrics rather than relying on accuracy alone.
+4. Run the dashboard:
 
-- Accuracy:0.759
-- Precision:0.351
-- Recall:0.775
-- F1-score:0.63
-- ROC-AUC:0.841
+   ```bash
+   python -m streamlit run dashboard.py
+   ```
 
-## Limitations
+   To run the prediction app, if configured:
 
-The model learns patterns from historical data. Its predictions are estimates and do not establish the causes of customer churn.
+   ```bash
+   python -m streamlit run app.py
+   ```
 
-Performance on future customers may differ from performance on the evaluation dataset. The application is a portfolio demonstration, not a production-ready customer retention system.
+## Skills Demonstrated
 
-## Future Improvements
-
-- Cross-validation and hyperparameter tuning
-- Improved probability calibration and decision-threshold selection
-- Additional model evaluation
-- Deployment of the Streamlit application
-- Monitoring of model performance on new data
+Python programming, data cleaning, exploratory data analysis, SQL, data visualization, machine learning, model evaluation, dashboard development, and GitHub version control.
 
 ## Author
 
-Vivek Sajwan .
+**Vivek Sajwan**
+
+- [GitHub](https://github.com/vsajwan486-beep)
+- [LeetCode](https://leetcode.com/u/vivek_sajwan/)
+- [HackerRank](https://www.hackerrank.com/vsajwan486/hackos)
+
+*This project was developed for learning and portfolio purposes. Actual results depend on the dataset and model evaluation.*
